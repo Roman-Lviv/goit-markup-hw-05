@@ -854,6 +854,7 @@ fill: currentColor;
 
 .subscribe-form {
   display: flex;
+  gap: 24px;
 }
 
 .lable-subscribe {
