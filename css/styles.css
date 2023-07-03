@@ -1002,7 +1002,7 @@ input[type="checkbox"]:checked {
 }
 
 .privacy-policy {
-  color: #4D5AE5;
+  color: var(--blue-button);
 }
 
 .privacy-btn {
