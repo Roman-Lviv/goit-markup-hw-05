@@ -996,7 +996,7 @@ fill: currentColor;
   fill: transparent; 
 }
 
-.input[type="checkbox"]:checked {
+input[type="checkbox"]:checked {
   border: none; 
   fill: var(--light-mode-color);
 }
