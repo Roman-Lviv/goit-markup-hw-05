@@ -942,10 +942,15 @@ fill: currentColor;
   outline: transparent; 
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1); 
 }
-.person:focus + .icon-person {
-  border-color: var(--blue-button); 
+
+.person:focus {
+border-color: var(--blue-button);
+}
+
+.person:focus + .icon-person { 
   fill: var(--blue-button);
 }
+
 
 .icon-person {
   position: absolute;
