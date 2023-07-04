@@ -913,6 +913,9 @@ fill: currentColor;
 }
 
 .modal-form {
+  margin-bottom: 8px;
+}
+.modal-form-comment {
   margin-bottom: 16px;
 }
 
