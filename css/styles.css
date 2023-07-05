@@ -342,9 +342,8 @@ body {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--body-text-color);
-  margin-bottom: 8px;
   font-size: 16px;
-  letter-spacing: 0.32px;
+  font-weight: 400;
 }
 .title-text-icons {
   font-style: normal;
@@ -471,7 +470,7 @@ body {
   padding: 12px 24px;
   border: 1px solid var(--title-light);
   border-radius: 4px;
-  
+
 }
 
 .btn-portfolio:hover,
@@ -479,7 +478,7 @@ body {
   background-color: var(--pressed-state-color);
   color: var(--white-background-color);
   border: 1px solid transparent;
-  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background-color 550ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .adres-portfolio {
@@ -600,6 +599,7 @@ body {
 }
 .portfolio-content-spase {
   width: calc((100% - 48px) / 3);
+
 }
 .portfolio-card {
   position: relative;
@@ -853,6 +853,9 @@ fill: currentColor;
   | Subscribe Form
   |============================
 */
+.subscribe {
+  margin-left: auto;
+}
 
 .subscribe-form {
   display: flex;
